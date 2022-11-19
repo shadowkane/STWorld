@@ -1,0 +1,4 @@
+../Drivers/Sensors/Gyroscope/Gyroscope_l3gd20.c:14:6:bWriteDataInGyro	32	static
+../Drivers/Sensors/Gyroscope/Gyroscope_l3gd20.c:79:6:bGyroIsExist	24	static
+../Drivers/Sensors/Gyroscope/Gyroscope_l3gd20.c:137:6:bGyroConfiguration	32	static
+../Drivers/Sensors/Gyroscope/Gyroscope_l3gd20.c:155:6:bGayroGetXYZ	40	static
