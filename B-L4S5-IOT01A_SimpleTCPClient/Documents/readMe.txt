@@ -38,7 +38,7 @@ also don't configure B13 (Wifi module wake-up cmd), E1(data ready from the Wifi 
 
 	The Wifi library need some interruption handler so you need to import those 2 functions in your main.c file:
  
-'''
+```
 extern  SPI_HandleTypeDef hspi; //this variable is declared in the es_wifi_io you need to called in main file.
 
 // this callback is for the data ready from the wifi module
@@ -64,18 +64,18 @@ void SPI3_IRQHandler(void)
 {
   HAL_SPI_IRQHandler(&hspi);
 }
-'''
+```
  and import those lines in your stm32l4xx_it.c file:
 
 
 
-'''
+```
 // for the data ready from the wifi module
 void EXTI1_IRQHandler(void)
 {
  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1);
 }
-'''
+```
 
 if you are going to use this project and test it you need to:
 	* set your router configuration (SSID, password, Encryption type)
