@@ -1,5 +1,0 @@
-es_wifi => send/receive and handle AT cmd to the Wifi module (driver)
-
-es_wifi_io => the IO porting of the communication between MCU and Wifi module (init/deinit and send/receive using SPI communication ) 
-
-wifi => LL (low-layer) interface provide function to connect to router, act as AP, scan wifi and get information for wifi module etc (require es_wifi and es_wifi_io)
