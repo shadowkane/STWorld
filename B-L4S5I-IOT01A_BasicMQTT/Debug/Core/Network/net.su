@@ -1,0 +1,16 @@
+../Core/Network/net.c:69:5:net_init	32	static
+../Core/Network/net.c:141:5:net_deinit	24	static
+../Core/Network/net.c:193:5:net_reinit	24	static
+../Core/Network/net.c:240:5:net_get_ip_address	32	static
+../Core/Network/net.c:319:5:net_get_mac_address	32	static
+../Core/Network/net.c:378:5:net_get_hostaddress	40	static
+../Core/Network/net.c:443:5:net_sock_create	32	static
+../Core/Network/net.c:481:5:net_sock_open	40	static
+../Core/Network/net.c:488:5:net_sock_setopt	40	static
+../Core/Network/net.c:594:5:net_sock_recv	32	static
+../Core/Network/net.c:601:5:net_sock_recvfrom	48	static
+../Core/Network/net.c:608:5:net_sock_send	32	static
+../Core/Network/net.c:615:5:net_sock_sendto	48	static
+../Core/Network/net.c:622:5:net_sock_close	24	static
+../Core/Network/net.c:629:5:net_sock_destroy	24	static
+../Core/Network/net.c:646:9:net_timeout_left_ms	32	static

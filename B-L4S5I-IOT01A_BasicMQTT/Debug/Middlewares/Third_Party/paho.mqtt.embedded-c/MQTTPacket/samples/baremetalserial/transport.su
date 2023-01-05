@@ -1,0 +1,7 @@
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:43:6:transport_sendPacketBuffernb_start	24	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:49:5:transport_sendPacketBuffernb	24	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:68:5:transport_sendPacketBuffer	32	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:83:5:transport_getdata	16	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:89:5:transport_getdatanb	32	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:107:5:transport_open	24	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c:117:5:transport_close	24	static
