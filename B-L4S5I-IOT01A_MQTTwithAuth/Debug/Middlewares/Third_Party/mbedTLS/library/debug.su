@@ -1,0 +1,10 @@
+../Middlewares/Third_Party/mbedTLS/library/debug.c:55:6:mbedtls_debug_set_threshold	16	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:63:20:debug_send_line	40	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:81:6:mbedtls_debug_print_msg	560	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:118:6:mbedtls_debug_print_ret	552	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:141:6:mbedtls_debug_print_buf	584	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:196:6:mbedtls_debug_print_ecp	552	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:214:6:mbedtls_debug_print_mpi	576	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:278:13:debug_print_pk	88	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:316:13:debug_print_line_by_line	568	static
+../Middlewares/Third_Party/mbedTLS/library/debug.c:341:6:mbedtls_debug_print_crt	1584	static

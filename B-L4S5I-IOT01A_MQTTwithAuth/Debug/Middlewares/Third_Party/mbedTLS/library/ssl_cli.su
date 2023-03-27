@@ -1,0 +1,38 @@
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_ciphersuites.h:417:19:mbedtls_ssl_ciphersuite_cert_req_allowed	16	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_ciphersuites.h:466:19:mbedtls_ssl_ciphersuite_uses_server_signature	16	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_internal.h:521:35:mbedtls_ssl_own_key	24	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_internal.h:533:33:mbedtls_ssl_own_cert	24	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_internal.h:576:22:mbedtls_ssl_hs_hdr_len	16	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuth/Middlewares/Third_Party/mbedTLS/include/mbedtls/ssl_internal.h:600:19:mbedtls_ssl_safer_memcmp	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:52:13:mbedtls_zeroize	24	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:58:13:ssl_write_hostname_ext	48	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:120:13:ssl_write_renegotiation_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:161:13:ssl_write_signature_algorithms_ext	64	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:246:13:ssl_write_supported_elliptic_curves_ext	56	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:319:13:ssl_write_supported_point_formats_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:429:13:ssl_write_max_fragment_length_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:463:13:ssl_write_truncated_hmac_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:529:13:ssl_write_extended_ms_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:563:13:ssl_write_session_ticket_ext	48	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:607:13:ssl_write_alpn_ext	48	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:669:12:ssl_generate_random	24	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:709:12:ssl_write_client_hello	80	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1056:12:ssl_parse_renegotiation_info	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1095:12:ssl_parse_max_fragment_length_ext	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1118:12:ssl_parse_truncated_hmac_ext	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1163:12:ssl_parse_extended_ms_ext	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1186:12:ssl_parse_session_ticket_ext	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1209:12:ssl_parse_supported_point_formats_ext	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1286:12:ssl_parse_alpn_ext	48	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1428:12:ssl_parse_server_hello	112	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:1971:12:ssl_check_server_ecdh_params	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2005:12:ssl_parse_server_ecdh_params	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2079:12:ssl_write_encrypted_pms	64	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2156:12:ssl_parse_signature_algorithm	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2256:12:ssl_parse_server_key_exchange	152	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2631:12:ssl_parse_certificate_request	80	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2763:12:ssl_parse_server_hello_done	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:2802:12:ssl_write_client_key_exchange	48	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:3091:12:ssl_write_certificate_verify	120	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:3248:12:ssl_parse_new_session_ticket	56	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cli.c:3356:5:mbedtls_ssl_handshake_client_step	32	static

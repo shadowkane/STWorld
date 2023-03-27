@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:49:12:derive_mpi	40	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:72:5:mbedtls_ecdsa_sign	128	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:161:5:mbedtls_ecdsa_sign_det	304	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:199:5:mbedtls_ecdsa_verify	120	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:284:12:ecdsa_signature_to_asn1	184	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:308:5:mbedtls_ecdsa_write_signature	80	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:357:5:mbedtls_ecdsa_read_signature	72	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:408:5:mbedtls_ecdsa_genkey	32	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:418:5:mbedtls_ecdsa_from_keypair	24	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:435:6:mbedtls_ecdsa_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/ecdsa.c:443:6:mbedtls_ecdsa_free	16	static

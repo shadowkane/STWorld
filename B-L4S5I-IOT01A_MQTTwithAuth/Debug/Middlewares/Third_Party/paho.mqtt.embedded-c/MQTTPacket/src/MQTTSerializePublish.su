@@ -1,0 +1,6 @@
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:32:5:MQTTSerialize_publishLength	32	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:56:5:MQTTSerialize_publish	48	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:105:5:MQTTSerialize_ack	40	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:138:5:MQTTSerialize_puback	32	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:152:5:MQTTSerialize_pubrel	32	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c:165:5:MQTTSerialize_pubcomp	32	static

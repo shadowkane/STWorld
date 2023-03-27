@@ -1,0 +1,10 @@
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:51:13:mbedtls_zeroize	24	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:78:6:mbedtls_sha1_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:83:6:mbedtls_sha1_free	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:91:6:mbedtls_sha1_clone	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:100:6:mbedtls_sha1_starts	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:113:6:mbedtls_sha1_process	104	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:273:6:mbedtls_sha1_update	32	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:321:6:mbedtls_sha1_finish	40	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:352:6:mbedtls_sha1	120	static
+../Middlewares/Third_Party/mbedTLS/library/sha1.c:392:5:mbedtls_sha1_self_test	1168	static

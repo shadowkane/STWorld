@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/mbedTLS/library/platform.c:56:5:mbedtls_platform_set_calloc_free	16	static
+../Middlewares/Third_Party/mbedTLS/library/platform.c:311:5:mbedtls_platform_setup	16	static
+../Middlewares/Third_Party/mbedTLS/library/platform.c:321:6:mbedtls_platform_teardown	16	static
