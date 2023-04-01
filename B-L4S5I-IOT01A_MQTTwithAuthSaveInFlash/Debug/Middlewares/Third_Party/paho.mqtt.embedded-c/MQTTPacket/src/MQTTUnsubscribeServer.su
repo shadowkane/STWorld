@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c:34:5:MQTTDeserialize_unsubscribe	48	static
+../Middlewares/Third_Party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c:76:5:MQTTSerialize_unsuback	40	static

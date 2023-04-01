@@ -1,0 +1,8 @@
+../Core/Network/net_tls_mbedtls.c:67:5:net_sock_create_mbedtls	40	static
+../Core/Network/net_tls_mbedtls.c:117:5:net_sock_open_mbedtls	576	static
+../Core/Network/net_tls_mbedtls.c:385:5:net_sock_recv_mbedtls	48	static
+../Core/Network/net_tls_mbedtls.c:438:5:net_sock_send_mbedtls	48	static
+../Core/Network/net_tls_mbedtls.c:485:5:net_sock_close_mbedtls	32	static
+../Core/Network/net_tls_mbedtls.c:516:5:net_sock_destroy_mbedtls	32	static
+../Core/Network/net_tls_mbedtls.c:553:13:my_debug	32	static
+../Core/Network/net_tls_mbedtls.c:567:13:internal_close	24	static

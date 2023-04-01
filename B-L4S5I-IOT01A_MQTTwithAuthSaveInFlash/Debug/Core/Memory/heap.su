@@ -1,0 +1,3 @@
+../Core/Memory/heap.c:84:6:stack_measure_prologue	16	static
+../Core/Memory/heap.c:97:6:stack_measure_epilogue	16	static
+../Core/Memory/heap.c:109:6:heap_stat	24	static

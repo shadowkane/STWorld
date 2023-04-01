@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:81:13:mbedtls_zeroize	24	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:88:6:mbedtls_gcm_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:101:12:gcm_gen_table	192	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:161:5:mbedtls_gcm_setkey	32	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:210:13:gcm_mult	128	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:266:5:mbedtls_gcm_starts	96	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:349:5:mbedtls_gcm_update	120	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:408:5:mbedtls_gcm_finish	64	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:443:5:mbedtls_gcm_crypt_and_tag	40	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:469:5:mbedtls_gcm_auth_decrypt	88	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:505:6:mbedtls_gcm_free	16	static
+../Middlewares/Third_Party/mbedTLS/library/gcm.c:739:5:mbedtls_gcm_self_test	568	static

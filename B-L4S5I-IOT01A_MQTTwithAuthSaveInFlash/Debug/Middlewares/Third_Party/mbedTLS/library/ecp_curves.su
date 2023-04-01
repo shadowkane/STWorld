@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:556:20:ecp_mpi_load	24	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:566:20:ecp_mpi_set1	16	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:577:12:ecp_group_load	24	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:693:5:mbedtls_ecp_group_load	56	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:905:20:add32	24	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:911:20:sub32	24	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:958:19:fix_negative	32	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:1006:12:ecp_mod_p256	88	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:1043:12:ecp_mod_p384	104	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:1212:19:ecp_mod_koblitz	104	static
+../Middlewares/Third_Party/mbedTLS/library/ecp_curves.c:1319:12:ecp_mod_p256k1	24	static

@@ -1,0 +1,10 @@
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:54:13:mbedtls_zeroize	24	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:81:6:mbedtls_sha256_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:86:6:mbedtls_sha256_free	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:94:6:mbedtls_sha256_clone	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:103:6:mbedtls_sha256_starts	16	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:182:6:mbedtls_sha256_process	320	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:241:6:mbedtls_sha256_update	32	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:290:6:mbedtls_sha256_finish	40	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:326:6:mbedtls_sha256	136	static
+../Middlewares/Third_Party/mbedTLS/library/sha256.c:392:5:mbedtls_sha256_self_test	184	static

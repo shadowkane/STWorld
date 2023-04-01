@@ -1,0 +1,5 @@
+../Core/MQTT/paho_timer.c:54:6:TimerCountdownMS	16	static
+../Core/MQTT/paho_timer.c:61:6:TimerCountdown	16	static
+../Core/MQTT/paho_timer.c:67:5:TimerLeftMS	24	static
+../Core/MQTT/paho_timer.c:83:6:TimerIsExpired	16	static
+../Core/MQTT/paho_timer.c:89:6:TimerInit	16	static

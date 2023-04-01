@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/mbedTLS/library/ssl_cache.c:46:6:mbedtls_ssl_cache_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cache.c:58:5:mbedtls_ssl_cache_get	32	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cache.c:137:5:mbedtls_ssl_cache_set	40	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cache.c:294:6:mbedtls_ssl_cache_set_max_entries	16	static
+../Middlewares/Third_Party/mbedTLS/library/ssl_cache.c:301:6:mbedtls_ssl_cache_free	24	static

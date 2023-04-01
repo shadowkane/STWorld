@@ -1,0 +1,1 @@
+../Core/Security/entropy_hardware_poll.c:55:5:mbedtls_hardware_poll	32	static

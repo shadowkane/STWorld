@@ -1,0 +1,19 @@
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuthSaveInFlash/Middlewares/Third_Party/mbedTLS/include/mbedtls/pk.h:139:36:mbedtls_pk_rsa	16	static
+C:/Users/shado/Data/Projects/Embedded/STM/ST workspaces/workspace_test/B-L4S5I-IOT01A_MQTTwithAuthSaveInFlash/Middlewares/Third_Party/mbedTLS/include/mbedtls/pk.h:243:22:mbedtls_pk_get_len	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:47:13:mbedtls_zeroize	24	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:54:6:mbedtls_pk_init	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:66:6:mbedtls_pk_free	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:79:27:mbedtls_pk_info_from_type	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:105:5:mbedtls_pk_setup	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:152:5:mbedtls_pk_can_do	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:164:19:pk_hashlen_helper	24	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:181:5:mbedtls_pk_verify	40	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:199:5:mbedtls_pk_verify_ext	56	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:257:5:mbedtls_pk_sign	48	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:276:5:mbedtls_pk_decrypt	48	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:294:5:mbedtls_pk_encrypt	48	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:312:5:mbedtls_pk_check_pair	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:338:8:mbedtls_pk_get_bitlen	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:349:5:mbedtls_pk_debug	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:364:13:mbedtls_pk_get_name	16	static
+../Middlewares/Third_Party/mbedTLS/library/pk.c:375:19:mbedtls_pk_get_type	16	static
