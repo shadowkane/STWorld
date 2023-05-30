@@ -1,0 +1,2 @@
+C:/TouchGFXProjects/MyApplication_1/Core/Src/freertos.c:63:13:configureTimerForRunTimeStats	0	static
+C:/TouchGFXProjects/MyApplication_1/Core/Src/freertos.c:69:22:getRunTimeCounterValue	0	static

@@ -1,0 +1,4 @@
+C:/TouchGFXProjects/MyApplication_1/Core/Src/commonOsFunction.c:13:13:bPrepareMessage	8	static
+C:/TouchGFXProjects/MyApplication_1/Core/Src/commonOsFunction.c:96:6:bSendQueue	72	static
+C:/TouchGFXProjects/MyApplication_1/Core/Src/commonOsFunction.c:219:6:bSendQueueFromIsr	64	static
+C:/TouchGFXProjects/MyApplication_1/Core/Src/commonOsFunction.c:267:6:bReceiveQueue	8	static

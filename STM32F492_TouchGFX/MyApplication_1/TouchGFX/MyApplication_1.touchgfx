@@ -1,0 +1,457 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "SplashScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "nature_light_lake_83477_240x320.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SplashScreenInteraction",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionDelay",
+              "Duration": 3000
+            }
+          },
+          {
+            "InteractionName": "SplashScreenEnds",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "SplashScreenInteraction"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "TemperatureScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "TemperatureScreen",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "BackgroudImage",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_240x320_shattered_rain_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bLeftSlide",
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_left_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bRightSlide",
+            "X": 140,
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_right_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 57,
+            "Y": 240,
+            "Width": 127,
+            "Height": 25,
+            "TextId": "__SingleUse_LFPJ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge1",
+            "Width": 240,
+            "Height": 240,
+            "Preset": "alternate_theme\\presets\\gauges\\medium\\dark_filled.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_gauge_medium_backgrounds_dark_filled.png",
+            "RotationCenterX": 120.0,
+            "RotationCenterY": 120.0,
+            "StartAngle": -117.0,
+            "EndAngle": 121.0,
+            "RangeMax": 100.0,
+            "InitialValue": 50.0,
+            "Easing": "Linear",
+            "EasingOption": "In",
+            "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_medium_needles_rough.png",
+            "NeedleRotationCenterX": 10.0,
+            "NeedleRotationCenterY": 65.0,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "UseArc": true,
+            "FileNameArc": "__generated\\alternate_theme_images_widgets_gauge_medium_fillers_swoop.png",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "SetArcPosition": true,
+            "ArcX": 23.0,
+            "ArcY": 23.0,
+            "ArcWidth": 192.0,
+            "ArcHeight": 142.0,
+            "ArcRadius": 100.0,
+            "ArcLineWidth": 99.0,
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "L_Temperature",
+            "Y": 179,
+            "Width": 240,
+            "Height": 25,
+            "LockPosition": true,
+            "TextId": "__SingleUse_FHT5",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_YDP8",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "slideRightToGetTemperatureScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bRightSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "GetTemperatureScreen"
+            }
+          },
+          {
+            "InteractionName": "slideLeftToLedCommandScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bLeftSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "LedCommandScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GetTemperatureScreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "BackgroudImage",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_240x320_shattered_rain_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bRightSlide",
+            "X": 140,
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_right_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bLeftSlide",
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_left_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "L_temperature",
+            "Y": 50,
+            "Width": 240,
+            "Height": 110,
+            "TextId": "__SingleUse_1ITY",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 68,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_AQBC",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "B_refreshTemperature",
+            "Y": 217,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_round_disabled.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_refresh_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_refresh_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Clickable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "slideLeftToTemperatureScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bLeftSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "TemperatureScreen"
+            }
+          },
+          {
+            "InteractionName": "slideRightToLedCommandScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bRightSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "LedCommandScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LedCommandScreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "BackgroudImage",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_240x320_shattered_rain_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bLeftSlide",
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_left_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "bRightSlide",
+            "X": 140,
+            "Y": 284,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_07A3F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_right_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "tbCmdLed",
+            "X": 35,
+            "Y": 160,
+            "Width": 170,
+            "Height": 60,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_off_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_on_action.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 22,
+            "Y": 19,
+            "Width": 197,
+            "Height": 98,
+            "TextId": "__SingleUse_RY0X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 7,
+              "Green": 239,
+              "Blue": 247
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "slideLeftToGetTemperatureScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bLeftSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "GetTemperatureScreen"
+            }
+          },
+          {
+            "InteractionName": "slideRightToTemperatureScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bRightSlide"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "TemperatureScreen"
+            }
+          },
+          {
+            "InteractionName": "TBLedCommanderClickHandler",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tbCmdLed"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "vTBLedCmdClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_1",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "SplashScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.3",
+  "CreatedBy": "4.21.3"
+}

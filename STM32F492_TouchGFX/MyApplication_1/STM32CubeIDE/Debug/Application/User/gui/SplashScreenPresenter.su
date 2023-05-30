@@ -1,0 +1,8 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:18:virtual void ModelListener::vUpdateTemperature()	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:14:18:virtual void ModelListener::vUpdateLedCmdToggleBotton(bool)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:18:virtual void ModelListener::vUpdateTemperatureValueInAutoMode(float)	0	static
+../../TouchGFX/gui/include/gui/splashscreen_screen/SplashScreenPresenter.hpp:28:13:SplashScreenPresenter::~SplashScreenPresenter()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/splashscreen_screen/SplashScreenPresenter.cpp:10:6:virtual void SplashScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/splashscreen_screen/SplashScreenPresenter.hpp:28:13:virtual SplashScreenPresenter::~SplashScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/splashscreen_screen/SplashScreenPresenter.hpp:28:13:virtual void* SplashScreenPresenter::_ZThn4_N21SplashScreenPresenterD1Ev()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/splashscreen_screen/SplashScreenPresenter.cpp:4:1:SplashScreenPresenter::SplashScreenPresenter(SplashScreenView&)	8	static

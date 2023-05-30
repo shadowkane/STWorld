@@ -1,0 +1,10 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:18:virtual void ModelListener::vUpdateTemperature()	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:18:virtual void ModelListener::vUpdateTemperatureValueInAutoMode(float)	0	static
+../../TouchGFX/gui/include/gui/ledcommandscreen_screen/LedCommandScreenPresenter.hpp:28:13:LedCommandScreenPresenter::~LedCommandScreenPresenter()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/ledcommandscreen_screen/LedCommandScreenPresenter.cpp:17:6:virtual void LedCommandScreenPresenter::deactivate()	0	static
+../../TouchGFX/gui/include/gui/ledcommandscreen_screen/LedCommandScreenPresenter.hpp:28:13:virtual LedCommandScreenPresenter::~LedCommandScreenPresenter()	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/ledcommandscreen_screen/LedCommandScreenPresenter.cpp:10:6:virtual void LedCommandScreenPresenter::activate()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/ledcommandscreen_screen/LedCommandScreenPresenter.cpp:34:6:virtual void LedCommandScreenPresenter::vUpdateLedCmdToggleBotton(bool)	0	static
+../../TouchGFX/gui/include/gui/ledcommandscreen_screen/LedCommandScreenPresenter.hpp:28:13:virtual void* LedCommandScreenPresenter::_ZThn4_N25LedCommandScreenPresenterD1Ev()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/ledcommandscreen_screen/LedCommandScreenPresenter.cpp:4:1:LedCommandScreenPresenter::LedCommandScreenPresenter(LedCommandScreenView&)	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/ledcommandscreen_screen/LedCommandScreenPresenter.cpp:22:6:void LedCommandScreenPresenter::vSetLed(bool)	0	static

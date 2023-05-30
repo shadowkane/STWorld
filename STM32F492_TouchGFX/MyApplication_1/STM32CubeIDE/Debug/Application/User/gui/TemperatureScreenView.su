@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/temperaturescreen_screen/TemperatureScreenView.cpp:13:6:virtual void TemperatureScreenView::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/temperaturescreen_screen/TemperatureScreenView.hpp:11:13:TemperatureScreenView::~TemperatureScreenView()	8	static
+../../TouchGFX/gui/include/gui/temperaturescreen_screen/TemperatureScreenView.hpp:11:13:virtual TemperatureScreenView::~TemperatureScreenView()	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/temperaturescreen_screen/TemperatureScreenView.cpp:3:1:TemperatureScreenView::TemperatureScreenView()	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/temperaturescreen_screen/TemperatureScreenView.cpp:8:6:virtual void TemperatureScreenView::setupScreen()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/temperaturescreen_screen/TemperatureScreenView.cpp:29:6:void TemperatureScreenView::vUpdateTemperatureView(float)	32	static

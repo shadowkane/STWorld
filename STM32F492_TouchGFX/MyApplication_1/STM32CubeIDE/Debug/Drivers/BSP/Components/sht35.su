@@ -1,0 +1,7 @@
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:98:13:bSendCmd	24	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:34:13:bReadWordFromAddress.constprop	24	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:131:6:vSht35Config	16	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:193:6:bSht35Init	8	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:223:6:bSht35GetTemperature	48	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:262:6:bGetHumidity	0	static
+C:/TouchGFXProjects/MyApplication_1/Drivers/BSP/Components/sht35/sht35.c:269:6:bGetTemperatureAndHumidity	0	static

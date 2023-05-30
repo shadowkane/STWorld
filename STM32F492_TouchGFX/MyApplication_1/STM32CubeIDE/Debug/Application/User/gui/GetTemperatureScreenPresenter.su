@@ -1,0 +1,8 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:14:18:virtual void ModelListener::vUpdateLedCmdToggleBotton(bool)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:18:virtual void ModelListener::vUpdateTemperatureValueInAutoMode(float)	0	static
+../../TouchGFX/gui/include/gui/gettemperaturescreen_screen/GetTemperatureScreenPresenter.hpp:30:13:GetTemperatureScreenPresenter::~GetTemperatureScreenPresenter()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/gettemperaturescreen_screen/GetTemperatureScreenPresenter.cpp:10:6:virtual void GetTemperatureScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/gettemperaturescreen_screen/GetTemperatureScreenPresenter.hpp:30:13:virtual GetTemperatureScreenPresenter::~GetTemperatureScreenPresenter()	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/gettemperaturescreen_screen/GetTemperatureScreenPresenter.cpp:20:6:virtual void GetTemperatureScreenPresenter::vUpdateTemperature()	0	static
+../../TouchGFX/gui/include/gui/gettemperaturescreen_screen/GetTemperatureScreenPresenter.hpp:30:13:virtual void* GetTemperatureScreenPresenter::_ZThn4_N29GetTemperatureScreenPresenterD1Ev()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/gettemperaturescreen_screen/GetTemperatureScreenPresenter.cpp:4:1:GetTemperatureScreenPresenter::GetTemperatureScreenPresenter(GetTemperatureScreenView&)	8	static

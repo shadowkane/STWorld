@@ -1,0 +1,13 @@
+/*
+ * gyroscopeI3g4250d.h
+ *
+ *  Created on: May 12, 2023
+ *      Author: shado
+ */
+
+#ifndef DRIVERS_BSP_COMPONENTS_GYROSCOPEI3G4250D_H_
+#define DRIVERS_BSP_COMPONENTS_GYROSCOPEI3G4250D_H_
+
+
+
+#endif /* DRIVERS_BSP_COMPONENTS_GYROSCOPEI3G4250D_H_ */

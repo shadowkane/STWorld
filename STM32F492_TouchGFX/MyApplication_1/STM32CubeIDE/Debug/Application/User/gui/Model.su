@@ -1,0 +1,6 @@
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:6:1:Model::Model()	0	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:11:6:void Model::tick()	8	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:53:6:void Model::vUserToggleLed(bool)	24	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:68:6:void Model::vRequestLedState()	16	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:73:6:void Model::vRequestStartAutoGetTemperature()	16	static
+C:/TouchGFXProjects/MyApplication_1/TouchGFX/gui/src/model/Model.cpp:78:6:void Model::vRequestStopAutoGetTemperature()	16	static
